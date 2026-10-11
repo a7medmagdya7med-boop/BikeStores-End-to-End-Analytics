@@ -1,0 +1,26 @@
+# SQL Server database files and backups
+*.bak
+*.mdf
+*.ldf
+*.trn
+*.bacpac
+
+# Imported BI models and private configuration: opt-in only after review
+*.pbix
+*.pbit
+*.pbi
+*.pbip
+*.pbir
+
+# Local and sensitive content
+.env
+.env.*
+*.secrets.*
+*.credentials.*
+**/00_Original_SQL/
+**/99_Training_Labs_Review/
+**/private/
+**/temp/
+Thumbs.db
+.DS_Store
+__pycache__/
