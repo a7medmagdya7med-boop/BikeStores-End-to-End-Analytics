@@ -78,13 +78,61 @@ These are values previously observed in the user's BikeStores Power BI report, n
 
 See [KPI Dictionary](docs/KPI_DICTIONARY.md) and [Data Quality](docs/DATA_QUALITY.md). A dashboard `PASS` is the result of the checks defined there and does not mean that every possible data-quality risk has been excluded.
 
-## 7. Dashboard
 
-The report contains seven pages, including **Store Performance Analytics**, **Time Intelligence & Sales Trends**, **Revenue Growth Diagnostics**, **DW | Executive Overview**, and **DW Health & Data Quality**. The exact names of the remaining pages and screenshot filenames should be confirmed from the PBIX before final publication.
+## 7. Power BI Dashboard Gallery
 
-The report was successfully published and opened in Power BI Service. **A publicly shareable report URL has not been supplied**, so this README does not invent one. Screenshots and the `.pbix` file are **not** included automatically in this source-only release; add them only after review and with the right to share them.
+The BikeStores Executive Analytics report contains seven interactive Power BI pages, covering sales performance, product analytics, store comparisons, time intelligence, revenue growth, data warehousing, and data quality.
 
-[Dashboard pages and screenshot guide](docs/DASHBOARD_PAGES.md)
+### 01 — Executive Overview
+
+Executive-level summary of net revenue, total orders, average order value, units sold, monthly revenue trends, and store performance.
+
+![BikeStores Executive Overview](screenshots/01_Executive_Overview.png)
+
+### 02 — Product & Category Analytics
+
+Analysis of product and category contributions to overall sales performance.
+
+![Product and Category Analytics](screenshots/02_Product_Category.png)
+
+### 03 — Store Performance Analytics
+
+Comparison of sales performance across BikeStores retail locations.
+
+![Store Performance Analytics](screenshots/03_Store_Performance.png)
+
+### 04 — Time Intelligence & Sales Trends
+
+Time-based sales analysis, including revenue trends and MoM / YoY performance indicators.
+
+![Time Intelligence and Sales Trends](screenshots/04_Time_Intelligence.png)
+
+### 05 — Revenue Growth Diagnostics
+
+Revenue growth analysis and diagnostics across reporting periods.
+
+![Revenue Growth Diagnostics](screenshots/05_Revenue_Growth.png)
+
+### 06 — Data Warehouse Executive Overview
+
+Executive reporting based on the dimensional data warehouse and its analytical model.
+
+![Data Warehouse Executive Overview](screenshots/06_DW_Executive.png)
+
+### 07 — Data Warehouse Health & Data Quality
+
+Data quality monitoring, including order integrity, duplicate checks, referential integrity, revenue reconciliation, and the overall validation status.
+
+![Data Warehouse Health and Data Quality](screenshots/07_Data_Quality.png)
+
+### Report Availability
+
+The interactive report was successfully published to Power BI Service.
+
+This repository provides dashboard screenshots, SQL scripts, technical documentation, and reference materials. Scheduled refresh from the local SQL Server LocalDB source has not been configured.
+
+For further details, see [Dashboard Documentation](docs/DASHBOARD_PAGES.md).
+
 
 ## 8. Repository contents
 
